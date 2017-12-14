@@ -1,0 +1,98 @@
+h1, body {
+  margin: 0;
+}
+
+.partner {
+  width: 1200px;
+  margin: 0 auto;
+  background: #f7f7f7;
+}
+
+.partner_form {
+  width: 100%;
+  text-align: center;
+}
+.partner_form h1 {
+  font-size: 22px;
+  font-weight: 500;
+  padding-top: 50px;
+  padding-bottom: 35px;
+}
+
+.form {
+  margin: 0 auto;
+}
+.form .form-group {
+  margin-bottom: 12px;
+}
+.form label {
+  text-align: right;
+  display: inline-block;
+  width: 130px;
+}
+.form input {
+  width: 360px;
+  height: 20px;
+  border-radius: 3px;
+  border: 1px solid #b3b3b3;
+  padding: 5px 20px;
+  margin-left: 10px;
+}
+
+.partner_photo {
+  width: 100%;
+  text-align: center;
+  margin-top: 95px;
+}
+.partner_photo h2 {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.a-upload {
+  width: 400px;
+  height: 180px;
+  line-height: 20px;
+  position: relative;
+  cursor: pointer;
+  color: #fff;
+  background: #4d4d4d;
+  border: 1px solid #4d4d4d;
+  border-radius: 4px;
+  overflow: hidden;
+  display: inline-block;
+  margin-top: 15px;
+}
+.a-upload input {
+  width: 400px;
+  height: 180px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.partner_ID {
+  text-align: center;
+  margin-top: 55px;
+  padding-bottom: 106px;
+}
+.partner_ID p {
+  font-size: 18px;
+  margin-bottom: 22px;
+  color: #4D4D4D;
+}
+.partner_ID i {
+  font-style: normal;
+  color: #d90202;
+}
+.partner_ID button {
+  width: 400px;
+  height: 40px;
+  background: #f7f7f7;
+  border: 1px solid #b3b3b3;
+  border-radius: 5px;
+  color: #4D4D4D;
+  font-size: 15px;
+}

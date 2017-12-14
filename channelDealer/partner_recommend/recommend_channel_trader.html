@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>推荐管理渠道商</title>
+		<link rel="stylesheet" href="/channelDealer/css/common.css"/>
+		<link rel="stylesheet" href="/channelDealer/partner_recommend/css/recommend_channel_trader.css" />
+		<script src="/channelDealer/js/vue.js"></script>
+	</head>
+	<body>
+	<div id="root">
+		<component-header></component-header>
+		<section class="main">
+			<component-menu :index="2" :link-active="1"></component-menu>
+			<div class="content">
+				<div class="partner">
+					<div class="partner_form">
+						<h1>合伙人注册</h1>
+						<form class="form">
+							<div class="form-group">
+								<label>用户名：</label>
+								<input type="text" name="name" id="name" placeholder="请填写你的手机号码"/>
+							</div>
+							<div class="form-group">
+								<label>推荐ID：</label>
+								<input type="text" name="ID" id="ID" placeholder="默认市代理的ID(不用填写)" disabled/>
+							</div>
+							<div class="form-group">
+								<label>所属地区：</label>
+								<input type="text" name="address" id="address"/>
+							</div>
+							<div class="form-group">
+								<label>类型：</label>
+								<input type="text" name="type" id="type" placeholder="渠道商" disabled/>
+							</div>
+							<div class="form-group">
+								<label>负责人姓名：</label>
+								<input type="text" name="fzrname" id="fzrname"/>
+							</div>
+							<div class="form-group">
+								<label>负责人身份证号：</label>
+								<input type="text" name="fzrID" id="fzrID"/>
+							</div>
+
+						</form>
+					</div>
+					<div class="partner_photo">
+						<h2>请上传你的身份证正面照</h2>
+						<a href="javascript:;" class="a-upload">
+							<input type="file" name="" id="">
+						</a>
+					</div>
+					<div class="partner_ID">
+						<p>注册完后会自动生成ID<i>(请牢记你的ID)</i></p>
+						<button>M5454755555</button>
+					</div>
+				</div>
+			</div>
+		</section>
+		<component-footer></component-footer>
+	</div>
+	<script src="/channelDealer/js/common.js"></script>
+	</body>
+</html>

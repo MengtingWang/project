@@ -1,0 +1,111 @@
+.person_img {
+  width: 1200px;
+  overflow: hidden;
+  margin: 0 auto;
+  background: #f7f7f7;
+  padding-top: 40px;
+  padding-left: 70px;
+  padding-right: 70px;
+  box-sizing: border-box;
+}
+
+.person_img_head {
+  width: 160px;
+  height: 160px;
+  background: #b3b3b3;
+}
+.person_img_head img {
+  display: block;
+  height: 160px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.a-upload {
+  padding: 6px 14px;
+  height: 20px;
+  line-height: 20px;
+  position: relative;
+  cursor: pointer;
+  color: #fff;
+  background: #1867f0;
+  border: 1px solid #1867f0;
+  border-radius: 4px;
+  overflow: hidden;
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.a-upload input {
+  width: 158px;
+  height: 34px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.big_img {
+  background: #fff;
+  width: 800px;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  padding-left: 15px;
+  margin-bottom: 100px;
+  overflow: hidden;
+  float: right;
+}
+.big_img .image_big {
+  width: 400px;
+  height: 400px;
+  background: #b3b3b3;
+  float: left;
+}
+.big_img .image_big img {
+  height: 400px;
+  display: block;
+}
+.big_img .select_small {
+  width: 160px;
+  height: 160px;
+  background: #b3b3b3;
+  display: inline-block;
+  margin-left: 100px;
+}
+.big_img .select_small img {
+  height: 160px;
+  display: block;
+}
+.big_img .button {
+  margin-left: 72px;
+  display: inline-block;
+  margin-top: 30px;
+}
+.big_img .button a {
+  margin-right: 19px;
+}
+.big_img .file {
+  padding: 6px 14px;
+  height: 20px;
+  line-height: 20px;
+  position: relative;
+  cursor: pointer;
+  color: #fff;
+  background: #1867f0;
+  border: 1px solid #1867f0;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+.big_img .file input {
+  width: 60px;
+  height: 34px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  opacity: 0;
+  cursor: pointer;
+}

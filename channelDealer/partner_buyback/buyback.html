@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/channelDealer/css/common.css"/>
+    <link rel="stylesheet" href="/channelDealer/partner_buyback/css/buyback.css">
+    <script src="/channelDealer/js/vue.js"></script>
+    <title>我要回购</title>
+</head>
+<body>
+<div id="root">
+    <component-header :link-active="2" :msg-tag="false" :quit-tag="false"></component-header>
+    <section class="main">
+        <component-menu :index="4" :link-active="1"></component-menu>
+        <div class="content">
+            <div class="buyBack">
+                <h3>我要回购</h3>
+                <div class="buyBack-body">
+                    <label>
+                        <p>回购类型:</p>
+                        <select>
+                            <option>代扣税</option>
+                        </select>
+                    </label>
+                    <label>
+                        <p>回购金额:</p>
+                        <input type="text" />
+                    </label>
+                    <label>
+                        <p>手续费:</p>
+                        <span class="spanRed">5</span>(元)
+                    </label>
+                    <label>
+                        <p>银行类型:</p>
+                        <span>中国建设银行(民治支行)</span>
+                    </label>
+                    <label>
+                        <p>户名:</p>
+                        <span>程建国</span>
+                    </label>
+                    <label class="spanSty">
+                        <p>账号:</p>
+                        <span>6214677200001204840</span>
+                        <select>
+                            <option>选择账户</option>
+                        </select>
+                        <a>账户管理</a>
+                    </label>
+                    <label class="txt">
+                		<p>温馨提示:</p>
+                		<textarea></textarea>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </section>
+    <component-footer></component-footer>
+</div>
+<script src="/channelDealer/js/common.js"></script>
+</body>
+</html>

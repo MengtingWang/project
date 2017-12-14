@@ -1,0 +1,40 @@
+p,
+h1,
+body {
+  margin: 0;
+}
+
+.member {
+  width: 1200px;
+  background: #F7F7F7;
+  margin: 0 auto;
+  height: 800px;
+}
+
+.member_main {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 370px;
+}
+.member_main h1 {
+  font-size: 24px;
+  font-weight: lighter;
+  padding-top: 97px;
+}
+.member_main .member_img {
+  width: 300px;
+  height: 300px;
+  background: #b3b3b3;
+  display: inline-block;
+  margin-top: 35px;
+  margin-bottom: 31px;
+}
+.member_main .member_img img {
+  display: block;
+  height: 300px;
+}
+.member_main p {
+  font-size: 16px;
+  color: #808080;
+  margin-bottom: 36px;
+}

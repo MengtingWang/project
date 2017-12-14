@@ -1,0 +1,100 @@
+.person{
+    width: 1200px;
+    margin: 0 auto;
+    background: #f7f7f7;
+	text-align: center;
+}
+.person_infor{
+    width: 100%;
+    .person_item{
+        display: inline-block;
+        background: #fff;
+        margin-bottom: 18px;      
+        h1{
+            font-size: 24px;
+            font-weight:lighter ;
+            padding-top: 44px;
+            padding-bottom: 60px;
+        }
+        table{
+            table-layout:fixed;
+            border-collapse: collapse;
+            tr{
+                border-bottom: 1px solid #dedede;
+                height: 45px;
+            }
+            
+            td{
+                padding-left: 82px;
+                padding-right: 10px;
+            }
+            td:nth-child(2){
+                width: 200px;
+                overflow: hidden;
+                word-break: break-all;
+                padding: 0 10px;
+                text-align: left;
+            }
+        }
+    }
+}
+.update{
+    width: 1000px;
+    height: 51px;
+    text-align: center;
+    background: #c0c0c0;
+    color: #fff;
+    line-height: 51px;
+    margin: auto;
+    border-radius: 5px;
+    margin-bottom: 45px;
+    margin-top: 40px;
+    a{
+        display: block;
+        width: 998px;
+        height: 48px;
+        text-decoration: none;
+        color: #fff;
+        font-size: 19px;
+    }
+    
+    i{
+        background: url(../../images/write.png) no-repeat;
+        width: 18px;
+        height: 18px;
+        display: inline-block;
+        margin-left: 20px;
+        line-height: 48px;
+    }
+}
+.photo_list{
+    overflow: hidden;
+    h1{
+        font-size: 24px;
+        font-weight: 500;
+    }
+    .photo_item{
+        width: 160px;
+       margin: auto;
+      //  margin: 0 120px;
+        margin-bottom: 50px;
+        
+        h2{
+            font-size: 16px;
+            margin-top: 26px;
+            margin-bottom: 21px;
+            font-weight: 500;
+            
+        }
+    }
+    .img{
+        width: 160px;
+        height: 200px;
+        background: #ccc;
+    }
+}
+.table{ 
+    td:nth-child(1){
+        text-align: right;
+    }
+}

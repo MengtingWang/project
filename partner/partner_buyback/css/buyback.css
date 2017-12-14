@@ -1,0 +1,75 @@
+.buyBack {
+  padding: 46px 0 105px 68px;
+  color: #737373;
+}
+.buyBack h3 {
+  display: inline-block;
+  font-size: 24px;
+  font-weight: 400;
+  color: #595959;
+  padding-bottom: 2px;
+  border-bottom: 2px solid #595959;
+}
+.buyBack table {
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  margin-left: 180px;
+}
+.buyBack table td {
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+.buyBack-body {
+  padding: 20px 0;
+}
+.buyBack-body label {
+  display: block;
+  margin: 15px 0px;
+}
+.buyBack-body label p {
+  width: 250px;
+  float: left;
+  text-align: right;
+  margin-right: 15px;
+  color: #595959;
+}
+.buyBack-body label .spanRed {
+  color: #f00;
+  margin-right: 5px;
+}
+.buyBack-body label input {
+  border-radius: 3px;
+  outline: none;
+  border: 1px solid #ccc;
+  padding: 3px;
+  width: 140px;
+}
+.buyBack-body label select {
+  padding: 3px;
+  width: 148px;
+  border-radius: 3px;
+  outline: none;
+  color: #737373;
+}
+.buyBack-body .txt {
+  margin-top: 60px;
+}
+.buyBack-body textarea {
+  width: 556px;
+  height: 154px;
+  resize: none;
+  padding: 15px;
+}
+.buyBack-body .spanSty span {
+  margin-right: 80px;
+}
+.buyBack-body .spanSty select {
+  margin-right: 20px;
+}
+.buyBack-body .spanSty a {
+  color: #1867f0;
+  cursor: pointer;
+}

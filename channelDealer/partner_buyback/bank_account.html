@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>银行账号</title>
+    <link rel="stylesheet" href="/channelDealer/css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="/channelDealer/partner_buyback/css/bank_account.css"/>
+    <script src="/channelDealer/js/vue.js"></script>
+</head>
+<body>
+    <div id="root">
+        <component-header :msg-tag="false" :quit-tag="false"></component-header>
+        <section class="main">
+            <component-menu :index="4" :link-active="3"></component-menu>
+            <div class="content">
+				<div class="bankType">
+					<div>中国工商银行</div>
+					<div>中国建设银行</div>
+					<div>中国农业银行</div>
+					<div>中国银行</div>
+				</div>
+				<div class="bankContent">
+					<div class="bankContentTop">
+							<span>其他银行：</span>
+							<select name="">
+								<option value=""></option>
+								<option value=""></option>
+								<option value=""></option>
+							</select>
+							<span>银行支行：</span>
+							<input type="text"  class="bank"/>
+							
+							<span>户名：</span>
+							<input type="text" />
+					</div>
+					<div class="bankContentBtn">
+						<span>账号：</span><input type="text" class="number"/>
+						<input class="submit" type="button" value="添加银行卡"/>
+					</div>
+				</div>
+				<div class="myBank">
+					<span class="bankTitle">我的银行卡</span> <i class="bankPrompt">最多添加五张银行卡</i>
+					<ul class="bankInfo-table">
+						<li class="table-row table-caption">
+							<div>我的银行卡</div><div>卡号</div><div>户名</div><div>设置</div><div>操作</div>
+						</li>
+						<li class="table-row">
+							<div>中国建设银行 (民治支行)</div><div>621314521454215150</div><div>程国建</div><div>默认银行卡</div><div class="del">删除</div>
+						</li>
+					</ul>
+				</div>
+            </div>
+        </section>
+        <component-footer></component-footer>
+    </div>
+    <script src="/channelDealer/js/common.js"></script>
+</body>
+</html>

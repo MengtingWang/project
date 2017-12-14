@@ -1,0 +1,192 @@
+.content {
+    margin-left: 70px;
+    height: 720px;
+}
+
+.content .bankContent {
+    height: 70px;
+    margin-bottom: 27px;
+}
+
+.content .myBank {
+    text-align: left;
+}
+
+.bankType {
+    width: 1278px;
+    height: 50px;
+    margin-bottom: 27px;
+    margin-top: 21px;
+}
+
+.bankType div {
+    width: 240px;
+    height: 50px;
+    border: 1px solid #ccc;
+    margin-right: 106px;
+    float: left;
+    line-height: 45px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 68px;
+    text-align: left;
+    font-size: 24px;
+    background: url(../../images/back1.jpg) no-repeat 10px center;
+}
+
+.bankType div:nth-child(2) {
+    background-image: url(../../images/back2.jpg);
+}
+
+.bankType div:nth-child(3) {
+    background-image: url(../../images/back3.jpg);
+}
+
+.bankType div:nth-child(4) {
+    background-image: url(../../images/back4.jpg);
+    margin: 0;
+}
+
+.bankContent input {
+    border-radius: 5px;
+}
+
+.bankContent .bankContentTop {
+    height: 20px;
+    margin-bottom: 26px;
+}
+
+.bankContent .bankContentTop span {
+    width: 80px;
+    height: 20px;
+    line-height: 20px;
+    color: #000;
+    font-size: 14px;
+    text-align: right;
+    float: left;
+}
+
+.bankContent .bankContentTop select {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    height: 22px;
+    width: 142px;
+    margin-right: 223px;
+    height: 20px;
+    width: auto;
+    width: 140px;
+    margin-right: 120px;
+    float: left;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.bankContent .bankContentTop .bank {
+    margin-right: 180px;
+}
+
+.bankContent .bankContentTop input {
+    height: 20px;
+    width: 140px;
+    border: 1px solid #CCCCCC;
+    outline: none;
+    float: left;
+    padding-left: 10px;
+}
+
+.bankContent .bankContentBtn {
+    height: 20px;
+}
+
+.bankContent .bankContentBtn span {
+    width: 80px;
+    height: 20px;
+    line-height: 20px;
+    color: #000;
+    font-size: 14px;
+    text-align: right;
+    float: left;
+}
+
+.bankContent .bankContentBtn .number {
+    height: 20px;
+    width: 140px;
+    border: 1px solid #CCCCCC;
+    outline: none;
+    float: left;
+    margin-right: 260px;
+}
+
+.bankContent .bankContentBtn .submit {
+    width: 110px;
+    height: 26px;
+    border: 1px solid #1352c0;
+    background-color: #1867f0;
+    float: left;
+    color: #fff;
+    cursor: pointer;
+}
+
+.myBank .bankTitle {
+    text-align: left;
+    font-size: 14px;
+    color: #000;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.myBank .bankPrompt {
+    text-align: left;
+    font-size: 12px;
+    color: #585858;
+    font-style: initial;
+}
+
+.myBank .bankInfo-table {
+    width: 1234px;
+    margin: 42px 0 0 10px;
+}
+
+.myBank .bankInfo-table .table-row {
+    height: 35px;
+    line-height: 3.2;
+    font-size: 14px;
+    color: #555;
+    background: #F7F7F7;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.myBank .bankInfo-table .table-row div {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.myBank .bankInfo-table .table-row .del {
+    color: #0072fe;
+    cursor: pointer;
+}
+
+.myBank .bankInfo-table .table-caption {
+    height: 16px;
+    line-height: 16px;
+    background: #fff;
+}
+
+@media screen and (max-width: 1680px) {
+    .content {
+        margin-left: 0;
+    }
+    .bankType {
+        width: 100%;
+    }
+    .bankType div {
+        margin-right: 80px;
+    }
+    .myBank .bankInfo-table {
+        width: 100%;
+    }
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>融益行-首页</title>
+    <link rel="stylesheet" href="/partner/css/common.css"/>
+	<link rel="stylesheet" href="/partner/css/index.css" />
+    <script src="/partner/js/vue.js"></script>
+</head>
+<body>
+    <div id="root">
+        <component-header :link-active="1"></component-header>
+        <section class="main">
+            <component-menu></component-menu>
+		<div class="content">
+				<div class="home_page">
+					<div class="container">
+						<div class="img">
+							<img src="" title="" />
+						</div>
+						<form class="form">
+							<div class="form-group">
+								<label>合伙人：</label>
+								<label>张三</label>
+							</div>
+							<div class="form-group">
+								<label>代理身份：</label>
+								<label>合伙人</label>
+							</div>
+							<div class="form-group">
+								<label>ID：</label>
+								<label>M125255</label>
+							</div>
+							<div class="form-group">
+								<label>所属市：</label>
+								<label>深圳市龙华镇</label>
+							</div>
+							<div class="form-group">
+								<label>会员总数：</label>
+								<label>25个</label>
+							</div>
+							<div class="form-group">
+								<label>注册时间：</label>
+								<label>2017-08-08</label>
+							</div>
+						</form>
+					</div>
+					<div class="container">
+						<div class="bottom">
+							<div class="profit">
+								<div>今日收益总额</div>
+								<div>8888元</div>
+							</div>
+							<div class="profit">
+								<div>今日收益总额</div>
+								<div>8888元</div>
+							</div>
+							<div class="profit">
+								<div>今日收益总额</div>
+								<div>8888元</div>
+							</div>
+						</div>
+					</div>
+					<div :class="['right_list',{open: openNotice}]">
+						<h1>融益行公告栏</h1>
+						<p>客服电话：400-9001991</p>
+						<p>工作时间：9：00-21：30</p>
+						<p>(法定工作日)</p>
+						<p>客服QQ：4009001991</p>
+						<a class="open-notice" @click="openNotice = !openNotice">公告栏</a>
+					</div>
+				</div>
+			</div>
+        </section>
+        <component-footer></component-footer>
+    </div>
+    <script src="/partner/js/common.js"></script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+.buyBack{
+    padding: 46px 0 105px 68px;
+    color: #737373;
+
+    h3{
+        display: inline-block;
+        font-size: 24px;
+        font-weight: 400;
+        color: #595959;
+        padding-bottom: 2px;
+        border-bottom: 2px solid #595959;
+    }
+    table{
+        border-right: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        margin-left: 180px;
+        td{
+            border-top: 1px solid #ccc;
+            border-left: 1px solid #ccc;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+        }
+
+    }
+    &-body{
+        padding: 20px 0;
+
+        label{
+            display: block;
+            margin: 15px 0px;
+            p{
+                width: 250px;
+                float: left;
+                text-align: right;
+                margin-right: 15px;
+                color: #595959;
+            }
+            .spanRed{
+                color: #f00;
+                margin-right: 5px;
+            }
+            input{
+                border-radius: 3px;
+                outline: none;
+                border: 1px solid #ccc;
+                padding: 3px;
+                width: 140px;
+
+            }
+            select{
+                padding: 3px;
+                width: 148px;
+                border-radius: 3px;
+                outline: none;
+                color: #737373;
+            }
+        }
+        .txt{
+            margin-top: 60px;
+        }
+        textarea{
+            width: 556px;
+            height: 154px;
+            resize: none;
+            padding: 15px;
+        }
+        .spanSty{
+            span{
+                margin-right: 80px;
+            }
+            select{
+                margin-right: 20px;
+            }
+            a{
+                color: #1867f0;
+                cursor: pointer;
+            }
+        }
+    }
+//  &-info{
+//      max-width: 900px;
+//      margin-top: 30px;
+//      line-height: 28px;
+//      color: #9d9d9d;
+//  }
+}

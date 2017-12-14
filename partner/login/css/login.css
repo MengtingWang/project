@@ -1,0 +1,116 @@
+h1,
+body {
+  margin: 0;
+}
+
+.main {
+  position: static;
+  margin-top: 0 !important;
+  height: 843px;
+  margin-bottom: 119px;
+}
+.main .content {
+  height: 843px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  background: url(../../images/login_02.png) no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.login {
+  width: 393px;
+  height: 513px;
+  border: 1px solid #ccbfaf;
+  background: #fff;
+  opacity: 0.6;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  padding: 25px;
+  box-shadow: 0 0 40px #413935;
+}
+.login .form {
+  margin-top: 57px;
+  margin-left: 31px;
+  margin-right: 20px;
+}
+.login .form-group {
+  margin-bottom: 39px;
+  overflow: hidden;
+}
+.login h1 {
+  font-size: 23px;
+  color: #57514a;
+}
+.login .login_phone,
+.login .login_pwd,
+.login .login_name {
+  width: 42px;
+  height: 42px;
+  float: left;
+  background: url(../../images/login_03.png) center center;
+}
+.login .login_phone {
+  background: url(../../images/login_06.png) center center;
+}
+.login .login_pwd {
+  background: url(../../images/login_08.png) center center;
+}
+.login select {
+  width: 282px;
+  height: 42px;
+  font-size: 17px;
+  border: 1px solid #786b61;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background: url(../../images/login_yes.png) no-repeat 245px center;
+  background-size: 20px 12px;
+  padding: 0px 10px;
+}
+.login input {
+  width: 230px;
+  height: 30px;
+  outline: none;
+  padding: 5px;
+  color: #000;
+  position: relative;
+  padding-right: 45px;
+  border: 1px solid #786b61;
+}
+.login #username,
+.login #password {
+  background: url(../../images/login_no.png) no-repeat 245px center;
+  background-size: 20px 20px;
+}
+.login #code {
+  width: 130px;
+  outline: none;
+  float: left;
+  font-size: 17px;
+  margin-right: 20px;
+}
+.login .forget {
+  font-size: 18px;
+  margin-top: 20px;
+  text-decoration: none;
+  float: right;
+  margin-right: 20px;
+}
+.login #tijiao {
+  font-size: 18px;
+  background: #f39b42;
+  color: #FFF;
+  border-color: #F39B42;
+  height: 34px;
+  border-radius: 28px;
+  margin-top: 15px;
+  line-height: 34px;
+  width: 320px;
+  padding: 0;
+  cursor: pointer;
+}

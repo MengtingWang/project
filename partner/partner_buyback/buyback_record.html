@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>回购记录</title>
+		<link rel="stylesheet" href="/partner/css/common.css"/>
+		<link rel="stylesheet" href="/partner/partner_buyback/css/buyback_record.css"/>
+		<script src="/partner/js/vue.js"></script>
+		<script src="/partner/lib/layDate/laydate/laydate.js"></script>
+	</head>
+	<body>
+	<div id="root">
+		<component-header></component-header>
+		<section class="main">
+			<component-menu :index="4" :link-active="2"></component-menu>
+			<div class="content">
+				<div class="buyback_record">
+					<div class="container">
+						<div class="state">
+							<label>申请状态:</label>
+							<select>
+								<option>请选择审批类型</option>
+							</select>
+							<label>申请单号:</label>
+							<input type="text" />
+						</div>
+						<div class="time">
+							<label>申请时间:</label>
+							<input type="text" id="datetime"/>
+							<label>回购状态:</label>
+							<select>
+								<option>请选择回购类型</option>
+							</select>
+						</div>
+						<div class="query">查询</div>
+						<div class="table-block"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<component-footer></component-footer>
+	</div>
+	<script src="/partner/js/common.js"></script>
+	<script src="/partner/partner_buyback/js/buyback_record.js"></script>
+	</body>
+</html>

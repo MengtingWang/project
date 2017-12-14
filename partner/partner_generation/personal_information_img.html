@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>个人资料修改照片</title>
+		<link rel="stylesheet" href="/partner/css/common.css"/>
+		<link rel="stylesheet" href="/partner/partner_generation/css/personal_information_img.css"/>
+		<script src="/partner/js/vue.js"></script>
+	</head>
+	<body>
+	<div id="root">
+		<component-header></component-header>
+		<section class="main">
+			<component-menu :index="1" :link-active="1"></component-menu>
+			<div class="content">
+				<div class="person_img">
+					<div class="person_img_head">
+						<img src="" title="" />
+					</div>
+					<a href="javascript:;" class="a-upload">
+						<input type="file" name="" id="">修改我的图像
+					</a>
+					<div class="big_img">
+						<div class="image_big">
+							<img src="" title="" />
+						</div>
+						<div class="select_img">
+							<div class="select_small">
+								<img src="" title="" />
+							</div>
+							<div class="button">
+								<a href="javascript:;" class="file">
+									<input type="file" name="" id="" />选择
+								</a>
+								<a href="javascript:;" class="file">
+									<input type="text" name="" id="" />剪切
+								</a>
+								<a href="javascript:;" class="file">
+									<input type="text" name="" id="" />上传
+								</a>
+
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<component-footer></component-footer>
+	</div>
+	<script src="/partner/js/common.js"></script>
+	</body>
+</html>

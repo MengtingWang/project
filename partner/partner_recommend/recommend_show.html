@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>推荐记录</title>
+		<link rel="stylesheet" href="/partner/css/common.css"/>
+		<link rel="stylesheet" href="/partner/partner_recommend/css/recommend_show.css" />
+		<script src="/partner/js/vue.js"></script>
+		<script src="/partner/lib/layDate/laydate/laydate.js"></script>
+	</head>
+	<body>
+		<div id="root">
+			<component-header></component-header>
+			<section class="main">
+				<component-menu :index="2" :link-active="2"></component-menu>
+				<div class="content">
+					<div class="show">
+						<div class="show_time">
+							<label>时间筛选:</label>
+							<select>
+								<option>一周内</option>
+								<option>一个月</option>
+								<option>三个月</option>
+								<option>六个月</option>
+								<option>一年</option>
+							</select>
+							<!--<select>
+								<option>渠道商</option>
+								<option>合伙人</option>
+								<option>会员</option>
+							</select>
+							<select>
+								<option>已审核</option>
+								<option>待审核</option>
+							</select>-->
+							<div class="input_text">
+								<input type="text" name="date" id="datetime" />
+								<input type="text" name="search" id="search" placeholder="ID手机号 输入查询"/><i></i>
+							</div>
+						</div>
+						<div class="show_table">
+							<div class="show_table_item">Id姓名</div>
+							<div class="show_table_item">手机号</div>
+							<div class="show_table_item">身份</div>
+							<div class="show_table_item">审核时间</div>
+							<div class="show_table_item">审核结果</div>
+							<div class="show_table_item">所属上级</div>
+							<table class="table" border="1">
+								<tr>
+									<td>M5556565 李四</td>
+									<td>12345******</td>
+									<td>会员</td>
+									<td>2019-01-12</td>
+									<td>已审核</td>
+									<td>M5556565 李四</td>
+								</tr>
+								<tr>
+									<td>M5556565 李四</td>
+									<td>12345******</td>
+									<td>会员</td>
+									<td>2019-01-12</td>
+									<td><i>待审核</i></td>
+									<td>M5556565 李四</td>
+								</tr>
+								<tr>
+									<td>M5556565 李四</td>
+									<td>12345******</td>
+									<td>会员</td>
+									<td>2019-01-12</td>
+									<td>已审核</td>
+									<td>M5556565 李四</td>
+								</tr>
+								<tr>
+									<td>M5556565 李四</td>
+									<td>12345******</td>
+									<td>会员</td>
+									<td>2019-01-12</td>
+									<td>已审核</td>
+									<td>M5556565 李四</td>
+								</tr>
+								<tr>
+									<td>M5556565 李四</td>
+									<td>12345******</td>
+									<td>会员</td>
+									<td>2019-01-12</td>
+									<td>已审核</td>
+									<td>M5556565 李四</td>
+								</tr>
+								<tr>
+									<td>M5556565 李四</td>
+									<td>12345******</td>
+									<td>会员</td>
+									<td>2019-01-12</td>
+									<td>已审核</td>
+									<td>M5556565 李四</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+			</section>
+			<component-footer></component-footer>
+		</div>
+	<script src="/partner/js/common.js"></script>
+	<script>
+		laydate.render({
+			elem: '#datetime',
+			type: 'date',
+			format: 'yyyy-MM-dd'
+		});
+	</script>
+	</body>
+</html>
